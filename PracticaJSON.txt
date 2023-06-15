@@ -1,0 +1,62 @@
+{
+  "supermercados": [
+    {
+      "nombre": "Mercadona",
+      "direccion": "Calle Mayor 123, Madrid",
+      "geolocalizacion": {
+        "latitud": 40.123456,
+        "longitud": -3.987654
+      },
+      "productos": [
+        {
+          "nombre": "Leche",
+          "oferta": true,
+          "vigencia": "2023-06-30",
+          "consumo_habitual": true,
+          "unidades": 2,
+          "unidad_medida": "litros",
+          "precio": 1.50,
+          "adquirido": false
+        },
+        {
+          "nombre": "Pan",
+          "oferta": false,
+          "consumo_habitual": true,
+          "unidades": 1,
+          "unidad_medida": "unidad",
+          "precio": 0.80,
+          "adquirido": true
+        }
+      ]
+    },
+    {
+      "nombre": "Carrefour",
+      "direccion": "Avenida Principal 456, Madrid",
+      "geolocalizacion": {
+        "latitud": 40.987654,
+        "longitud": -3.123456
+      },
+      "productos": [
+        {
+          "nombre": "Huevos",
+          "oferta": true,
+          "vigencia": "2023-06-30",
+          "consumo_habitual": true,
+          "unidades": 6,
+          "unidad_medida": "unidades",
+          "precio": 2.00,
+          "adquirido": false
+        },
+        {
+          "nombre": "Manzanas",
+          "oferta": false,
+          "consumo_habitual": true,
+          "unidades": 4,
+          "unidad_medida": "kilogramos",
+          "precio": 3.50,
+          "adquirido": false
+        }
+      ]
+    }
+  ]
+}
